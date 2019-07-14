@@ -16,6 +16,10 @@ class Song
   end
 
   def artist_name
-    artist.name
+    if artist.name.length >= 1
+      artist.name
+    else
+      nil
+    end
   end
 end
