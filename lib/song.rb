@@ -12,13 +12,10 @@ class Song
   end
 
   def name
-    artist.name
-
-
-    
+    song
   end
 
   def artist_name
-    binding.pry
+    artist.name
   end
 end
