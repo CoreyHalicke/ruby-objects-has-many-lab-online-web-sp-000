@@ -6,6 +6,6 @@ class Author
   end
 
   def posts
-
+    
   end
 end
