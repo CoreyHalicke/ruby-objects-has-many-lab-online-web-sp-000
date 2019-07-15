@@ -1,7 +1,6 @@
 require "pry"
 class Artist
   attr_accessor :name
-
   @@counter = 0
 
   def initialize(name)
