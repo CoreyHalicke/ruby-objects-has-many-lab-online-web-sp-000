@@ -1,7 +1,7 @@
 require "pry"
 class Artist
   attr_accessor :name
-@total_songs = ""
+@total_songs = 0
   def initialize(name)
     @name = name
     @songs = []
