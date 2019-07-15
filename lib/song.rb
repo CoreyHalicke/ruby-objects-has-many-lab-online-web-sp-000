@@ -16,6 +16,6 @@ class Song
   end
 
   def artist_name
-    binding.pry
+    print defined?(self.artist.name)
   end
 end
