@@ -23,4 +23,8 @@ class Author
     @posts << new_post
     @counter =+ 1
   end
+
+  def self.post_count
+
+  end
 end
