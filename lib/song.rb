@@ -16,6 +16,8 @@ class Song
   end
 
   def artist_name
-    print defined?(self.artist.name)
+    if defined?(self.artist.name)
+      self.artist.name
+    end
   end
 end
