@@ -21,6 +21,6 @@ class Author
     new_post = Post.new(title)
     new_post.author = self
     @posts << new_post
-    @counter =+1
+    @counter =+ 1
   end
 end
